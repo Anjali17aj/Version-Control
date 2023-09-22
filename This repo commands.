@@ -28,7 +28,7 @@ d-----        22-09-2023     10:10                Version-Control
 
 
 
-MAKE NEW FILES in the folder manually after cloning. then cd over the new files to do the work.
+
 PS C:\Users\Anjali\Desktop\Git&Github> cd .\Version-Control\
 
 PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git status
@@ -45,7 +45,9 @@ Untracked files:
         git&github.txt
         terminal.txt
 
-no changes added to commit (use "git add" and/or "git commit -a")     
+no changes added to commit (use "git add" and/or "git commit -a")   
+MAKE NEW FILES in the folder manually after cloning. then cd over the new files to do the work.
+work edit..
 PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git add .
 PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git status
 On branch main
