@@ -1,0 +1,83 @@
+Used git commands to create this repo and push codes into it from local system.
+
+C:\Users\Anjali>git config --global user.name "Anjali17aj"
+
+C:\Users\Anjali>git config --global user.email "sayhellotoanjali@gmail.com"
+
+C:\Users\Anjali>git config --list
+user.name=Anjali17aj
+user.email=sayhellotoanjali@gmail.com
+
+
+PS C:\Users\Anjali\Desktop\Git&Github> git clone https://github.com/Anjali17aj/Version-Control.git
+Cloning into 'Version-Control'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+PS C:\Users\Anjali\Desktop\Git&Github> ls
+
+
+    Directory: C:\Users\Anjali\Desktop\Git&Github
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        22-09-2023     10:10                Version-Control     
+
+
+
+MAKE NEW FILES in the folder manually after cloning. then cd over the new files to do the work.
+PS C:\Users\Anjali\Desktop\Git&Github> cd .\Version-Control\
+
+PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)      
+        git&github.txt
+        terminal.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")     
+PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git add .
+PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   git&github.txt
+        new file:   terminal.txt
+
+PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git commit -m "Added git&github commands"
+[main c68f3f0] Added git&github commands
+ 3 files changed, 181 insertions(+)
+ create mode 100644 git&github.txt
+ create mode 100644 terminal.txt
+PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+PS C:\Users\Anjali\Desktop\Git&Github\Version-Control> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.37 KiB | 2.37 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Anjali17aj/Version-Control.git
+   1524759..c68f3f0  main -> main
+PS C:\Users\Anjali\Desktop\Git&Github\Version-Control>
+
+
+
