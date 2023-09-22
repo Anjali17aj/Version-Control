@@ -1,0 +1,47 @@
+# Terminal, CommandLine, Console.
+git --version
+ls
+pwd
+clear 
+upward and downward arrow key.
+.
+# Navigation Commands
+cd = change directory
+press tab to complete the line
+cd Desktop
+cd ..
+cd ../.. //2 Steps back folders
+
+# Paths (absolute & Relative)
+/ = root directory.
+~ = home directory
+cd Desktop/DeliciousFood    //(relative path)
+cd /Users/Anjalik/Desktop/Practice/Web/Github-student   //(absolute path)
+
+# Making Directions
+mkdir //making directory
+mkdir NewD
+mkdir WebD/Css/Anjalik
+mkdir/users/Anjalik/Desktop/NewDirectory/HelloWorld
+
+# Flags
+man ls //gives info about ls Command
+man mkdir //gives info about mkdir Command
+-l   // here - is a flag
+q //quit
+ls -l //folders listed with details along with time.
+ls -a // show hidden files
+ls -la  // folder listed with all details along with time also showing list hidden files.
+
+
+# Touch Command - used to create files * use with proper extension.
+touch index.html
+touch abc.txt
+
+# Delete Commands
+//rm command used to delete files
+rm folderanjali  //remove files
+rm app.js style.css index.html  
+rmdir  //removes empty folders
+rm -rf anjali //removes any folder (flags r= recurrsive delete and f= forced delete)
+
